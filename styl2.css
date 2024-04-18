@@ -1,0 +1,127 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#baner{
+    width: 100%;
+    height: 120px;
+    background-color: #7a7a7a;
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-style: italic;
+    letter-spacing: 20px;
+    font-size: 40px;
+    margin-left: 30px;
+}
+#main{
+    width: 100%;
+    min-height: 700px;
+    background-color: #dbdbdb;
+    padding-top: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 30px;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+td,th{
+    width: 100px;
+    text-align: center;
+}
+table{
+    width: 400px;
+    margin: auto;
+}
+th{
+    background-color: #7a7a7a;
+    color: white;
+}
+input,select{
+    width: 120px;
+    border-radius: 10px;
+}
+label{
+    margin-left: 30px;
+}
+input[type="submit"]{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 0px;
+}
+#aktualne{
+    display: none;
+    text-align: center;
+    height: fit-content;
+}
+#archiwum{
+    display: none;
+    text-align: center;
+    height: fit-content;
+}
+#calc{
+    display: none;
+    text-align: center;
+    height: fit-content;
+}
+#wykresy{
+    display: none;
+    text-align: center;
+    height: fit-content;
+}
+.lista{
+    margin-left: 20px;
+}
+.lista:hover{
+    cursor: pointer;
+    color: rgb(109, 109, 109);
+}
+tr:hover{
+    background-color: black;
+    color: white;
+}
+#pierwszy{
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+#drugi{
+    float: left;
+    width: 40%;
+    text-align: center;
+    height: 400px;
+    overflow: auto;
+}
+#wykres{
+    border: 20px solid #7a7a7a;
+    box-shadow: 10px 5px 5px #474747;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(78, 78, 78);
+    text-decoration: underline;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: none; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

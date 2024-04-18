@@ -1,0 +1,85 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content{
+    height: fit-content;
+    overflow: hidden;
+    margin: 0;
+}
+#baner{
+    width: 100%;
+    height: 120px;
+    background-color: #1b6bff;
+    color: rgb(255, 238, 0);
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url("download.jpg");
+}
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-style: italic;
+    letter-spacing: 20px;
+    font-size: 40px;
+}
+#menu{
+    width: 15%;
+    background-color: #6498fa;
+    float: left;
+    color: white;
+    height: 940px;
+}
+#menu,a{
+    color: white;
+}
+#main{
+    width: 85%;
+    float: left;
+    height: 920px;
+    text-align: center;
+    background-color: #b6d0ff;
+    padding-top: 20px;
+}
+#stopka{
+    clear: both;
+    background-color: #1b6bff;
+    color: white;
+    text-align: center;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+td,th{
+    width: 100px;
+    text-align: center;
+}
+table{
+    width: 400px;
+}
+th{
+    background-color: #528fff;
+    color: white;
+}
+input{
+    width: 80px;
+}
+label{
+    margin-left: 30px;
+}
+input[type="submit"]{
+    margin: 5px;
+    padding: 5px;
+}
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
